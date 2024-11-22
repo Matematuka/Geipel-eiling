@@ -1,0 +1,100 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.2;
+  max-width: 721px;
+  background-color: #f9f9f9;
+  color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 21px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+section {
+  padding: 0 40px;
+}
+
+.view b {
+  font-size: 18px;
+}
+
+.table-container {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #000;
+  max-width: 721px;
+  margin: 0;
+}
+
+.image-container {
+  border-right: 1px solid #000;
+}
+
+.image-container img {
+  width: 150px;
+  height: auto;
+  padding: 10px 10px 30px;
+}
+
+.text-container {
+  flex: 1;
+  padding-bottom: 10px;
+}
+
+.text-container ul {
+  list-style: disc;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.pdf-link {
+  display: inline-block;
+  color: blue;
+  padding-left: 50px;
+  text-decoration: underline;
+}
+
+.pdf-link:hover {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.advantages h2 {
+  text-align: center;
+}
+
+.quality-container img {
+  display: block;
+  width: 250px;
+  height: 220px;
+  float: left;
+}
+
+.quality-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.advantages {
+  max-width: 550px;
+}
+
+.advantages ol li {
+  margin-top: 15px;
+}

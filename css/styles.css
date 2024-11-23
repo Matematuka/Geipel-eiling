@@ -35,21 +35,29 @@ section {
 }
 
 .table-container {
-  display: flex;
-  gap: 20px;
+  width: 100%;
   border: 1px solid #000;
+  border-collapse: collapse;
   max-width: 721px;
   margin: 0;
 }
 
+tr {
+  border-bottom: 1px solid #000;
+}
+
 .image-container {
+  width: 162px;
+  height: auto;
+  vertical-align: top;
+  padding: 10px 0 0 10px;
   border-right: 1px solid #000;
 }
 
 .image-container img {
+  display: block;
   width: 150px;
   height: auto;
-  padding: 10px 10px 30px;
 }
 
 .text-container {
@@ -61,6 +69,10 @@ section {
   list-style: disc;
   margin-bottom: 40px;
   margin-top: 10px;
+}
+
+.text-container li {
+  font-size: 15px;
 }
 
 .pdf-link {
@@ -75,24 +87,24 @@ section {
   color: darkblue;
 }
 
+.advantages {
+  font-size: 19px;
+}
+
 .advantages h2 {
+  margin-top: 30px;
   text-align: center;
 }
 
 .quality-container img {
   display: block;
-  width: 250px;
-  height: 220px;
+  width: 280px;
+  height: 265px;
   float: left;
 }
 
 .quality-title {
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.advantages {
-  max-width: 550px;
+  margin-bottom: 40px;
 }
 
 .advantages ol li {
